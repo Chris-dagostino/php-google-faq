@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 60%;
+    margin: auto;
+}
+
+li{
+    list-style-type: none;
+}
+
+.head{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.nav ul{
+    display: flex;
+    padding: 20px;
+}
+
+.nav ul li{
+    padding: 0px 20px;
+}
+
+.active{
+    border-bottom: 2px solid #ee160b;
+}
+
+.account{
+    width: 20px;
+    height: 20px;
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    padding: 30px;
+    border-radius: 50%;
+}
